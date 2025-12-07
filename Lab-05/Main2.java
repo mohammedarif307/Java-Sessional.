@@ -2,7 +2,7 @@ class BankAccount {
 int accountNumber;
 String accountHolderName;
 double balance;
-static String bankName = "Sonali Bank";
+static String bankName = "Pubali Bank";
 BankAccount(int accNum, String name, double bal) {
 accountNumber = accNum;
 accountHolderName = name;
@@ -21,11 +21,12 @@ System.out.println("Bank Name: " + bankName);
 
 public class Main2 {
 public static void main(String[] args) {
-BankAccount account1 = new BankAccount(101, "Tanim", 50000);
-BankAccount account2 = new BankAccount(102, "Rakib", 70000);
+BankAccount account1 = new BankAccount(101, "Arif", 50000);
+BankAccount account2 = new BankAccount(102, "Mainul", 70000);
 account1.displayAccountInfo();
 System.out.println();
 account2.displayAccountInfo();
 BankAccount.showBankName();
 }
+
 }
