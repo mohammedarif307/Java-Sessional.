@@ -1,11 +1,11 @@
 public class PersonalInfo {
     public static void main(String[] args) {
         String name = "Mohammed Arif";
-        String studentId = "E251043";
+        String studentId = "E--------";
         int age = 20;
-        String email = "mohammedarif5629689@gmail.com";
+        String email = "abc@gmail.com";
         String phone = "+8801639229053";
-        String address = "Goschi,Raozan,Chattogram";
+        String address = "Chattogram";
 
         
         System.out.println("Personal Information:");
